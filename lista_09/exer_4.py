@@ -1,6 +1,7 @@
-cont = 0
+#Count how many adenines are in the sequence
+count = 0
 seq = "ATGGCCATGCATGCAATAAATGC"
 for i in seq:
     if (i == "A"):
-        cont += 1
-print(cont)
+        count += 1
+print(count)

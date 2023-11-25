@@ -1,9 +1,10 @@
+#Print sequences greater than 120 aminoacids
 seqA="MTNKVNSYGWKALIGSAVGYAMDGFDLLILGFMLSAISADLNLTPAQGGSLVTWTLIGAVFGGILFGALSDKYGRVRVLTWTILLFAVFTGLCAIAQGYWDLLIYRTIAGIGLGGEFGI"
 seqB="GMALAAEAWPARHRAKAASYVALGWQVGVLGAALLTPLLLPHIGWRGMFLVGIFPAFVAWFLRSHLHEPEIFTQKQTALSTQSSFTDKLRSFQLLIKDKATSKISLGIVVLTSVQNFGYYG"
 seqC="IMIWLPNFLSKQLGFSLTKSGLWTAVTVCGMMAGIWIFGQLADRIGRKPSFLLFQLGAVISIVVYSQLTDPDIMLLAGAFLGMFVNGMLGGYGALMAEAYPTEARATAQNVLFNIGRA"
 if len(seqA) > 120:
-    print("A sequência A tem mais que 120 aa:", seqA)
+    print("Sequence A is longer than 120 aa:", seqA)
 if len(seqB) > 120:
-    print("A sequência B tem mais que 120 aa:", seqB)
+    print("Sequence B is longer than 120 aa:", seqB)
 if len(seqC) > 120:
-    print("A sequência C tem mais que 120 aa:", seqC)
+    print("Sequence C is longer than 120 aa:", seqC)

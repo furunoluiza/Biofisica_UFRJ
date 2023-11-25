@@ -6,3 +6,5 @@ casa_append = casa.copy()
 casa_append.append(["poolhouse", 24.5])
 print(f"List using extend method: {casa_extend}")
 print(f"List using append method: {casa_append}")
+#Extend is used to add elements from a iterable to the list
+#Append is used to add a single element to the list

@@ -1,0 +1,6 @@
+arq = open("apresentacao.txt", "w")
+arq.write("Luiza Furuno Machado" "\n" "21 anos")
+arq.close()
+new = open("apresentacao.txt", "r")
+read = new.read()
+print(read)

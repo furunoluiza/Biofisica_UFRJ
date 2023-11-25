@@ -1,9 +1,12 @@
-arq = open("genomic_dna.txt", "r")
-conteudo = arq.read()
-exon1 = conteudo[:64]
-exon2 = conteudo[90:]
-intron = conteudo[64:90]
-total = len(conteudo)
-codificante = len(exon1 + exon2)
-porcentagem = codificante * 100 / total
-print("A proporção da sequência codificantes em relação ao tamanho total da sequência é", porcentagem)
+#Proportion of the coding sequence
+#  in relation to the total size of the sequence
+file = open("genomic_dna.txt", "r")
+seq = file.read()
+exon1 = seq[:64]
+exon2 = seq[90:]
+intron = seq[64:90]
+total = len(seq)
+coding = len(exon1 + exon2)
+percentage = coding * 100 / total
+print("The proportion of the coding sequence in relation \
+      to the total sequence size is", percentage)

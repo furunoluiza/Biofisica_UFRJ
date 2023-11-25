@@ -1,3 +1,4 @@
-arq = open("dna.txt", "r")
-conteudo = arq.read()
-print(conteudo)
+#Open file and print the content 
+file = open("dna.txt", "r")
+content = file.read()
+print(content)
